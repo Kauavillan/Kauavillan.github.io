@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 06- Kauã Villa Nova da Silva</title>
+    <style>
+        fieldset
+            {
+            width:200px;
+            height:200px;
+            }
+    </style>
+</head>
+<body>
+    <form action="/clientes" border: 1px>
+    <fieldset>
+        <legend>Cadastro de Clientes</legend> 
+        <label for="nome">Nome</label> <br>
+        <input type="text", name="nome", id="nome", maxlength="30", placeholder="Digite seu nome"> <br>
+        <label for="ende">Endereço</label> <br>
+        <input type="text", name="endereço", id="ende", maxlength="50", placeholder="Digite seu endereço", size="50"> <br>
+        <label for="email">Email</label> <br>
+        <input type="email", name="email", id="email", placeholder="Digite seu email"> <br>
+        <input type="checkbox", name="confirmação", id="news">
+        <label for="news">Desejo receber newsletter</label> <br> <br>
+        <input type="submit", value="Cadastrar">
+        <input type="reset", value="Cancelar">
+    </fieldset>
+    </form>
+</body>
+</html>
