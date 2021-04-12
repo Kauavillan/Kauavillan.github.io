@@ -1,0 +1,71 @@
+
+body {
+        font-family: 'Mukta', sans-serif;
+    background-image: url(imagens\ Css/Background\ index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    background-attachment: fixed;
+
+
+}
+
+@media (max-width: 700px){
+    body {
+        font-size: 20px;
+    }
+}
+header {
+    background-color: rgba(80, 136, 189, 0.178);
+}
+header h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 95%;
+}
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+p {
+
+    margin-left: 10px;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+:first-child h3 {
+     margin-left: 30px;
+ }
+a:link {
+    color: rgb(44, 108, 168);
+    text-decoration: underline;
+}
+a:visited {
+color: rgb(71, 102, 131);
+}
+a:hover {
+    color:rgb(124, 124, 124)
+}
+a:active{
+    color: rgb(173, 187, 218);
+}
+
+.link-tar {
+    font-size: 20px;
+    color: rgb(53, 52, 52);
+    padding: 5px;
+    background-color: rgba(48, 177, 177, 0.493);
+    border-radius: 13px;
+}
+.btn {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
