@@ -1,0 +1,43 @@
+body {
+    font-size: 80%;
+    background-color: rgb(255, 255, 255);
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    border: solid black 4px;
+}
+header {
+    background-color: lightgray;
+    border-radius: 15px;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: white;
+
+}
+li {
+    margin-right: 10px;
+}
+a :hover  {
+    color: red;
+    font-size: 20px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+}
+footer {
+    background-color: lightgray;
+    border-radius: 15px;
+    
+}
+header, section, footer {
+    text-align: center;
+    width: 600px;
+    margin: 20px 0;
+}
